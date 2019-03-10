@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32b91a45-79d7-4bab-806a-40f21e898386" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/banque/src/main/java/ch/heigvd/lu/banque/Transferts.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque/src/main/java/ch/heigvd/lu/banque/Transferts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecteursredacteurs/src/test/LecteursRedacteursTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lecteursredacteurs/src/test/LecteursRedacteursTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -13,6 +15,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/labo3$TransfertsTest.ic" NAME="TransfertsTest Coverage Results" MODIFIED="1552257802153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ch.heigvd.lu.banque.*</FILTER>
+    </SUITE>
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -46,11 +53,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/banque/src/main/java/ch/heigvd/lu/banque/Transferts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="453">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lecteursredacteurs/src/test/LecteursRedacteursTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-896">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -58,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/banque/src/test/java/ch/heigvd/lu/banque/TransfertsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
+            <state relative-caret-position="244">
               <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -90,6 +106,7 @@
         <option value="$PROJECT_DIR$/banque/src/test/java/TransfertTest.java" />
         <option value="$PROJECT_DIR$/banque/pom.xml" />
         <option value="$PROJECT_DIR$/banque/src/test/java/ch/heigvd/lu/banque/TransfertsTest.java" />
+        <option value="$PROJECT_DIR$/lecteursredacteurs/src/test/LecteursRedacteursTest.java" />
         <option value="$PROJECT_DIR$/banque/src/main/java/ch/heigvd/lu/banque/Transferts.java" />
       </list>
     </option>
@@ -131,9 +148,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="51" />
-    <option name="y" value="57" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-5" />
+    <option name="y" value="43" />
     <option name="width" value="1870" />
     <option name="height" value="960" />
   </component>
@@ -209,6 +226,39 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="banque" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="labo3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="labo3" type="462c0819:PsiDirectoryNode" />
+              <item name="lecteursredacteurs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labo3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="labo3" type="462c0819:PsiDirectoryNode" />
+              <item name="lecteursredacteurs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labo3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="labo3" type="462c0819:PsiDirectoryNode" />
+              <item name="lecteursredacteurs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labo3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="labo3" type="462c0819:PsiDirectoryNode" />
+              <item name="lecteursredacteurs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labo3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="labo3" type="462c0819:PsiDirectoryNode" />
+              <item name="lecteursredacteurs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -220,7 +270,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552250530446" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552257794779" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -341,13 +391,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17791000" />
+    <option name="totallyTimeSpent" value="19347000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="46" width="1496" height="768" extended-state="1" />
+    <frame x="-4" y="35" width="1496" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19819193" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21070932" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -356,7 +406,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32861635" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32861635" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -372,7 +422,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.32962447" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32962447" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
@@ -413,13 +463,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecteursredacteurs/src/test/LecteursRedacteursTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -477,7 +520,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/banque/src/test/java/ch/heigvd/lu/banque/TransfertsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="244">
           <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -487,8 +530,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/banque/src/main/java/ch/heigvd/lu/banque/Transferts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="453">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecteursredacteurs/src/test/LecteursRedacteursTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-896">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>

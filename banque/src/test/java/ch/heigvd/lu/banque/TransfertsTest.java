@@ -9,9 +9,6 @@ public class TransfertsTest {
        for(int i=0;i<1000;i++){
            Transferts tf=new Transferts();
            tf.start();
-           for(int j=0;j<1000;j++){
-               tf.run();
-           }
        }
         assertTrue(Transferts.getConsistent());
     }

@@ -1,8 +1,8 @@
 ﻿package ch.heigvd.lu.lecteursredacteurs;
 
-import ch.heig.pl.lecteursredacteurs.Controleur;
-import ch.heig.pl.lecteursredacteurs.Lecteur;
-import ch.heig.pl.lecteursredacteurs.Redacteur;
+import ch.heig.lu.lecteursredacteurs.Controleur;
+import ch.heig.lu.lecteursredacteurs.Lecteur;
+import ch.heig.lu.lecteursredacteurs.Redacteur;
 import org.junit.Before;
 import org.junit.Test;
 

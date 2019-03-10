@@ -15,15 +15,16 @@ public static boolean getConsistent(){
     }
     public void run() {
                 //Thread.sleep(1); //suspension de 1 ms
-
-                int debit=random.nextInt(banque.getNbComptes());
-                int credit=debit;
-                while(credit==debit)
-                   credit=random.nextInt(banque.getNbComptes());
-                int montant = random.nextInt();
-        synchronized (Compte.class){
+    for(int i =0; i< 1000;i++) {
+        int debit = random.nextInt(banque.getNbComptes());
+        int credit = debit;
+        while (credit == debit)
+            credit = random.nextInt(banque.getNbComptes());
+        int montant = random.nextInt();
+        synchronized (Compte.class) {
             banque.transfert(debit, credit, montant);
         }
+    }
 
     }
 }

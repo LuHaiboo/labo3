@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: ch.heigvd.lu.banque.TransfertsTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.28 s <<< FAILURE! - in ch.heigvd.lu.banque.TransfertsTest
-test1  Time elapsed: 0.27 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at ch.heigvd.lu.banque.TransfertsTest.test1(TransfertsTest.java:18)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 s - in ch.heigvd.lu.banque.TransfertsTest

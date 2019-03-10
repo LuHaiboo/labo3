@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ch.heigvd.lu.banque.TransfertsTest" time="0.28" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ch.heigvd.lu.banque.TransfertsTest" time="0.09" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="CN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\lvhb_\AppData\Local\Temp\surefire7015682647145781445\surefirebooter4018162718632423609.jar C:\Users\lvhb_\AppData\Local\Temp\surefire7015682647145781445 2019-03-10T20-12-11_359-jvmRun1 surefire4109347096403888376tmp surefire_07955252264262284217tmp"/>
+    <property name="sun.java.command" value="C:\Users\lvhb_\AppData\Local\Temp\surefire5142428626061105931\surefirebooter6533922183500004652.jar C:\Users\lvhb_\AppData\Local\Temp\surefire5142428626061105931 2019-03-10T20-33-46_636-jvmRun1 surefire8453475195874894484tmp surefire_08783001953916393903tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\lvhb_\IdeaProjects\labo3\banque\target\test-classes;C:\Users\lvhb_\IdeaProjects\labo3\banque\target\classes;C:\Users\lvhb_\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;C:\Users\lvhb_\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\lvhb_\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\lvhb_\.m2\repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;C:\Users\lvhb_\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;C:\Users\lvhb_\.m2\repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\lvhb_"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\lvhb_\AppData\Local\Temp\surefire7015682647145781445\surefirebooter4018162718632423609.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\lvhb_\AppData\Local\Temp\surefire5142428626061105931\surefirebooter6533922183500004652.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,9 +61,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="test1" classname="ch.heigvd.lu.banque.TransfertsTest" time="0.27">
-    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at ch.heigvd.lu.banque.TransfertsTest.test1(TransfertsTest.java:18)
-]]></failure>
-  </testcase>
+  <testcase name="test1" classname="ch.heigvd.lu.banque.TransfertsTest" time="0.086"/>
 </testsuite>

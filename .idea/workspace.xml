@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="32b91a45-79d7-4bab-806a-40f21e898386" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banque/src/main/java/ch/heigvd/lu/banque/Transferts.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque/src/main/java/ch/heigvd/lu/banque/Transferts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecteursredacteurs/src/test/LecteursRedacteursTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lecteursredacteurs/src/test/LecteursRedacteursTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banque/target/classes/ch/heigvd/lu/banque/Transferts.class" beforeDir="false" afterPath="$PROJECT_DIR$/banque/target/classes/ch/heigvd/lu/banque/Transferts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banque/target/test-classes/ch/heigvd/lu/banque/TransfertsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/banque/target/test-classes/ch/heigvd/lu/banque/TransfertsTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,19 +63,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lecteursredacteurs/src/test/LecteursRedacteursTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-896">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/banque/src/test/java/ch/heigvd/lu/banque/TransfertsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            <state relative-caret-position="285">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,9 +96,9 @@
         <option value="$PROJECT_DIR$/banque/src/test/java/Transferts.java" />
         <option value="$PROJECT_DIR$/banque/src/test/java/TransfertTest.java" />
         <option value="$PROJECT_DIR$/banque/pom.xml" />
-        <option value="$PROJECT_DIR$/banque/src/test/java/ch/heigvd/lu/banque/TransfertsTest.java" />
         <option value="$PROJECT_DIR$/lecteursredacteurs/src/test/LecteursRedacteursTest.java" />
         <option value="$PROJECT_DIR$/banque/src/main/java/ch/heigvd/lu/banque/Transferts.java" />
+        <option value="$PROJECT_DIR$/banque/src/test/java/ch/heigvd/lu/banque/TransfertsTest.java" />
       </list>
     </option>
   </component>
@@ -270,7 +261,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552257794779" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552257977853" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -376,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552245202069</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="transfertsReussit">
+      <created>1552257973808</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552257973808</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -389,15 +387,23 @@
     <history-entry file="TransfertsTest - 2019.03.10 at 20h 04m 22s.xml">
       <configuration name="TransfertsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TransfertsTest - 2019.03.10 at 23h 44m 59s.xml">
+      <configuration name="TransfertsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransfertsTest - 2019.03.10 at 23h 45m 24s.xml">
+      <configuration name="TransfertsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransfertsTest - 2019.03.10 at 23h 46m 21s.xml">
+      <configuration name="TransfertsTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19347000" />
+    <option name="totallyTimeSpent" value="19566000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="35" width="1496" height="768" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21070932" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21070932" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -406,7 +412,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32861635" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32861635" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -437,7 +443,8 @@
     </ignored-roots>
     <MESSAGE value="commit1" />
     <MESSAGE value="transfertsFailture" />
-    <option name="LAST_COMMIT_MESSAGE" value="transfertsFailture" />
+    <MESSAGE value="transfertsReussit" />
+    <option name="LAST_COMMIT_MESSAGE" value="transfertsReussit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lecteursredacteurs/pom.xml">
@@ -518,13 +525,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/banque/src/test/java/ch/heigvd/lu/banque/TransfertsTest.java">
+    <entry file="file://$PROJECT_DIR$/lecteursredacteurs/src/test/LecteursRedacteursTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-896">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -535,10 +539,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lecteursredacteurs/src/test/LecteursRedacteursTest.java">
+    <entry file="file://$PROJECT_DIR$/banque/src/test/java/ch/heigvd/lu/banque/TransfertsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-896">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

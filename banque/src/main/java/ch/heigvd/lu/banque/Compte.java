@@ -18,16 +18,22 @@ public class Compte {
     }
 
     public boolean debit(int valeur) {
-        if (montant - valeur >= 0) {
-            this.montant -= valeur;
-            return true;
-        } else {
-            return false;
+        //synchronized sur compte mais pas sur banque pendant debit
+        synchronized (this) {
+            if (montant - valeur >= 0) {
+                this.montant -= valeur;
+                return true;
+            } else {
+                return false;
+            }
         }
     }
 
     public void credit(int valeur) {
-        this.montant += valeur;
+        //synchronized sur compte mais pas sur banque pendant credit
+        synchronized (this) {
+            this.montant += valeur;
+        }
     }
 
 }

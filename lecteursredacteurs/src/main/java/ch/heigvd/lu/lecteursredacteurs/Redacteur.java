@@ -17,7 +17,8 @@ public class Redacteur extends Thread {
     }
 
     public void stopWrite(){
-        synchronized (this){
+        synchronized (controleur){
+            controleur.redacteur=false;
            if(--controleur.redacteurWaiting>0)
             this.notifyAll();
             else Lecteur.class.notifyAll();
@@ -25,16 +26,20 @@ public class Redacteur extends Thread {
     }
 
     public void run() {
-        synchronized (this) {
-        while(controleur.lecteur) {
+
+        while(controleur.lecteur||controleur.redacteur) {
+
+        synchronized (controleur) {
+
             iswaiting=true;
-          /* try {
+           try {
                 this.wait();
             } catch (InterruptedException e) {
                 e.printStackTrace();
-            }*/
+            }
           }
-        iswaiting=false;
         }
+        controleur.redacteur=true;
+        iswaiting=false;
     }
 }

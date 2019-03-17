@@ -9,37 +9,37 @@ public class Lecteur extends Thread {
     }
 
    public void startRead(){
+       controleur.lecteur=true;
+       iswaiting=true;
         this.start();
     }
 
    public boolean isWaiting(){
-       return this.iswaiting;
+       return iswaiting;
    }
 
     public void stopRead(){
-      // synchronized (controleur){
-
+       synchronized (controleur){
         controleur.lecteur=false;
            if(controleur.redacteurWaiting>0)
-               Redacteur.class.notifyAll();
+              Redacteur.class.notifyAll();
            else this.notifyAll();
-        //   }
+           }
     }
 
     public void run() {
 
-        //synchronized (controleur) {
-
-            if(controleur.redacteurWaiting>0) {
-                iswaiting=true;
-                /*try {
-                    //this.wait();
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }*/
+            while(controleur.redacteurWaiting>0||controleur.redacteur) {
+                synchronized (controleur) {
+                    iswaiting = true;
+                    try {
+                        this.wait();
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
             }
             controleur.lecteur=true;
             iswaiting =false;
-       // }
     }
 }

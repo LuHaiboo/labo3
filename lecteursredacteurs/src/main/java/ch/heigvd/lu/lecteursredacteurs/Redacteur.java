@@ -2,13 +2,14 @@ package ch.heigvd.lu.lecteursredacteurs;
 
 public class Redacteur extends Thread {
     private boolean iswaiting=true;
+    private  boolean stoped =false;
     private  Controleur controleur;
     Redacteur(Controleur c){
         controleur=c;
     }
 
     public void startWrite(){
-        controleur.redacteurWaiting++;
+        stoped =false;
         this.start();
     }
 
@@ -17,29 +18,35 @@ public class Redacteur extends Thread {
     }
 
     public void stopWrite(){
-        synchronized (controleur){
+        synchronized (this){
             controleur.redacteur=false;
-           if(--controleur.redacteurWaiting>0)
+            stoped =true;
             this.notifyAll();
-            else Lecteur.class.notifyAll();
+            Lecteur.class.notifyAll();
         }
     }
+    public void write(){
+        synchronized (this){
 
-    public void run() {
+            while(controleur.lecteur||controleur.redacteur) {
 
-        while(controleur.lecteur||controleur.redacteur) {
-
-        synchronized (controleur) {
-
-            iswaiting=true;
-           try {
-                this.wait();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
+                iswaiting=true;
+                try {
+                    this.wait();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
-          }
+
+            controleur.redacteur=true;
+            iswaiting=false;
+            while(!stoped);//un seul redacture possible;
         }
-        controleur.redacteur=true;
-        iswaiting=false;
+
+
+    }
+    public void run() {
+    write();
+
     }
 }

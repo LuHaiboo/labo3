@@ -2,6 +2,7 @@ package ch.heigvd.lu.lecteursredacteurs;
 
 public class Lecteur extends Thread {
     private boolean iswaiting=true;
+    private boolean stoped=false;
     private Controleur controleur;
 
     public Lecteur(Controleur controleur) {
@@ -11,7 +12,8 @@ public class Lecteur extends Thread {
    public void startRead(){
        controleur.lecteur=true;
        iswaiting=true;
-        this.start();
+       stoped=false;
+       this.start();
     }
 
    public boolean isWaiting(){
@@ -19,27 +21,30 @@ public class Lecteur extends Thread {
    }
 
     public void stopRead(){
-       synchronized (controleur){
+      synchronized (this){
         controleur.lecteur=false;
-           if(controleur.redacteurWaiting>0)
-              Redacteur.class.notifyAll();
-           else this.notifyAll();
-           }
+        stoped=true;
+          //Redacteur.class.notifyAll();
+          this.notifyAll();
+          }
     }
-
-    public void run() {
-
-            while(controleur.redacteurWaiting>0||controleur.redacteur) {
-                synchronized (controleur) {
-                    iswaiting = true;
-                    try {
-                        this.wait();
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                }
+    public void read() {
+        synchronized (this){
+            while (controleur.redacteur) {
+            iswaiting = true;
+            try {
+                this.wait();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             }
-            controleur.lecteur=true;
-            iswaiting =false;
+        }
+        iswaiting = false;
+        controleur.lecteur = true;
+    }
+        while(!stoped);//plusieueurs lecture possible;
+
+    }
+    public void run() {
+           read();
     }
 }

@@ -1,6 +1,5 @@
 package ch.heigvd.lu.lecteursredacteurs;
 
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -33,7 +32,6 @@ public class LecteursRedacteursTest {
     public void lecteursRedacteurs() throws InterruptedException {
         lecteur1.startRead();
         lecteur2.startRead();
-       // Thread.sleep(10);
         redacteur1.startWrite();
         lecteur3.startRead();
 

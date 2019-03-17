@@ -19,17 +19,16 @@ public class Redacteur extends Thread {
 
     public void stopWrite(){
         synchronized (this){
-            controleur.redacteur=false;
             stoped =true;
+            controleur.redacteur=false;
+
             this.notifyAll();
             Lecteur.class.notifyAll();
         }
     }
     public void write(){
         synchronized (this){
-
             while(controleur.lecteur||controleur.redacteur) {
-
                 iswaiting=true;
                 try {
                     this.wait();
@@ -37,16 +36,12 @@ public class Redacteur extends Thread {
                     e.printStackTrace();
                 }
             }
-
             controleur.redacteur=true;
             iswaiting=false;
             while(!stoped);//un seul redacture possible;
         }
-
-
     }
     public void run() {
     write();
-
     }
 }

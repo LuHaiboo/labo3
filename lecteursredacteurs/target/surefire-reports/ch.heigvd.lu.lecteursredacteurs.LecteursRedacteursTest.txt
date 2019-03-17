@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: ch.heigvd.lu.lecteursredacteurs.LecteursRedacteursTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.047 s <<< FAILURE! - in ch.heigvd.lu.lecteursredacteurs.LecteursRedacteursTest
-lecteursRedacteurs  Time elapsed: 0.047 s  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.063 s <<< FAILURE! - in ch.heigvd.lu.lecteursredacteurs.LecteursRedacteursTest
+lecteursRedacteurs  Time elapsed: 0.063 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at ch.heigvd.lu.lecteursredacteurs.LecteursRedacteursTest.lecteursRedacteurs(LecteursRedacteursTest.java:50)
+	at ch.heigvd.lu.lecteursredacteurs.LecteursRedacteursTest.lecteursRedacteurs(LecteursRedacteursTest.java:41)
 

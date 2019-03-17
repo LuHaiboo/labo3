@@ -22,9 +22,10 @@ public class Lecteur extends Thread {
 
     public void stopRead(){
       synchronized (this){
+          stoped=true;
         controleur.lecteur=false;
-        stoped=true;
-          //Redacteur.class.notifyAll();
+
+          Redacteur.class.notifyAll();
           this.notifyAll();
           }
     }
@@ -42,7 +43,6 @@ public class Lecteur extends Thread {
         controleur.lecteur = true;
     }
         while(!stoped);//plusieueurs lecture possible;
-
     }
     public void run() {
            read();
